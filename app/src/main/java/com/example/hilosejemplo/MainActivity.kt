@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 Thread.sleep(8000)
                 //Para hablar con la interfaz de usuario UI desde un hilo
                 //tenemos que crear un canal de comunicacion
-                runOnUiThread{binding.txtDescarga.text="Finalizando La Descarga"
+                runOnUiThread{binding.txtDescarga.text="Descarga Finalizada"
                 }
 
             }catch (e:InterruptedException){
